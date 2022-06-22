@@ -1,10 +1,20 @@
 # Stacks
     
-    The way a stack works is first in, last out. A good way to visualize this is a stack of pancakes. When you add pancakes to the plate, the first one gets cover up and the last ones added get taken first, because they are on the top. An easy way to see one of the purposes of a stack is any where there is more than one function call. When we call a function, it then goes to that function and runs it. Where will go after it runs that function? It will go back to the code it was running before the function call and keep going. The `Big O notation` of using a stack is `O(1)` because it never doubles up, it never cuts in half, it just keeps running until the stack is empty.
+    The way a stack works is first in, last out. A good way to visualize this is a stack of pancakes. When you add pancakes to the plate, <br> 
+    
+    the first one gets cover up and the last ones added get taken first, because they are on the top. An easy way to see one of the <br> 
+    
+    purposes of a stack is any where there is more than one function call. When we call a function, it then goes to that function and <br> 
+    
+    runs it. Where will go after it runs that function? It will go back to the code it was running before the function call and keep <br> 
+    
+    going. The `Big O notation` of using a stack is `O(1)` because it never doubles up, it never cuts in half, it just keeps running <br> 
+    
+    until the stack is empty.<br> 
 
-    When running any program that has more than one funtion call, it uses stacks. In python, let's look at if we were to call main that has several other function calls in it:
-
-``` def main():
+    When running any program that has more than one funtion call, it uses stacks. In python, let's look at if we were to call main that <br> has several other function calls in it:
+```
+     def main():
         director()
         gains()
         losses()
@@ -39,9 +49,11 @@
 
         main `
     
-    and finally, when main is done running, that is taken off the stack as well.
+    and finally, when main is done running, that is taken off the stack as well. <br> 
 
-    Now let's say instead of all the functions being called by main, they were instead called by different functions. For the sake of the example, we will only being showing the function calls and where they are in the code instead of working code:
+    Now let's say instead of all the functions being called by main, they were instead called by different functions. <br> 
+    
+    For the sake of the example, we will only being showing the function calls and where they are in the code instead of working code: <br> 
 
 ```
     main()
@@ -101,7 +113,9 @@
 
         and finally, the program finishes and main is taken off the stack.
 
-    When using a stack, error codes in python will show all the functions that were called up until that point. Let's say that we had an error in the losses function of our last example. The error code would look something like:
+    When using a stack, error codes in python will show all the functions that were called up until that point. <br> 
+    
+    Let's say that we had an error in the losses function of our last example. The error code would look something like:
 
        ` Error Has Occurred: TypeError
 
