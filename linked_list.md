@@ -1,17 +1,24 @@
 Linked list 
+    The purpose of a linked list is to be able to store information in a way that order matters. A linked list has a head, tail, and nodes in between. To keep the list in order, we will point the node to the node directly before it and directly behind it, except in the cases of the head and tail that will only point to one node each. The big O notation for this data structure is O(n) because to find a specific node, we loop through the linked list. 
 
-    What is the purpose of the data structure?
+    We can solve problems that require storing different information in memory, where you want to keep moving down the line of the information, but you'd have to point in the direction it needs to go. Common errors that could occur for this data structure are not removing or inserting a node correctly.
 
-    What is the performance of the data structure (you will need to talk about big O notation)?
 
-    What kind of problems can be solved using the data structure?
+    https://www.youtube.com/watch?v=WwfhLC16bis&ab_channel=CSDojo
 
-    How would the data structure be used in Python (in some cases you will need to discuss recursion)?
 
-    What kind of errors are common when using the data structure?
+    Example:
 
-    A complete example of a problem solved using the data structure. The problem should be created by you and not be a copy of an existing problem.
+    Let's say I have 3 children living at home. Names are:
 
-    A second problem (again created by you) which is given to the student of your tutorial to solve on their own. You need to provide a link to the solution.
+    Jameson, Calissa, and Kaden.
 
-    Your tutorial must use the Python programming language.
+    I want to keep these kids in order of oldest to youngest so I make a node called Jameson. Next is Calissa, so the data for the head of this linked list would be called Jameson and his node would point to Calissa by doing something like Jameson.next = Calissa. Then Calissa would point back to Jameson and forward to Kaden.
+
+    Now, let's say I had another child named Brylee. I need to add her in last so now Kaden will point forward to her and Brylee will point back to Kaden. 
+
+    Oh wow! Now I just adopted a little girl named Karah. She is older than Brylee and younger than Kaden, so she'll need to be pointing to both of them and Kaden will now point forward to Karah and Brylee will point back to Kaden. 
+
+
+
+    Let's look at this as if it were a linked list:
