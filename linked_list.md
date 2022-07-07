@@ -1,4 +1,5 @@
 #Linked list 
+
     The purpose of a linked list is to be able to store information in a way that order matters. A linked list has a head, tail, and 
     nodes in between. To keep the list in order, we will point the node to the node directly before it and directly behind it, except in
     the cases of the head and tail that will only point to one node each. The big O notation for this data structure is O(n) because to 
@@ -33,6 +34,6 @@
 
     Let's look at this as if it were a linked list:
 
-    
+
 
 
