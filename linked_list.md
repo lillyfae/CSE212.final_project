@@ -43,3 +43,27 @@
 
 
 
+    #Student Problem
+
+    A family is trying to keep track of their streaming services and want to keep them in order of how much they cost a month.
+
+    Make a linked list with the following services:
+
+    Disney+
+    Living Scriptures
+    Netflix
+    Hulu
+    ESPN
+
+
+    This family is trying to cut down on monthly spending. They want to get rid of the most expensive streaming service. 
+
+    What!? The office isn't on Netfilx anymore? This family wants to switch out Netflix for Peacock.
+
+
+
+
+
+
+
+
