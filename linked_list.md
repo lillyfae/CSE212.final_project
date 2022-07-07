@@ -31,8 +31,14 @@
 
     Jameson, Calissa, Kaden, Karah, and Brylee`
 
+    Jameson left to go on his mission, so he is no longer living at home. So Calissa is the new oldest and thus the new head of our linked
+    list.
 
-    Let's look at this as if it were a linked list:
+    `Calissa, Kaden, Karah, Brylee`
+
+
+
+    Let's look at this linked list in diagram form:
 
 
 
